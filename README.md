@@ -15,3 +15,4 @@ Why not do the same for people in Minas Gerais? Maybe I can spread the word that
 ## The app
 
 - AngularJS
+- Foundation
