@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="mgImageOverlay">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="row header">
+      <h1>MG Image Overlay</h1>
+    </div>
+    <div class="row description">
+      <h3>Upload your picture and get MG flag on it</h3>
+    </div>
+    <div class="row pics">
+      <div class="small-3 columns mg-flag">
+        <img src="img/mgFlag.png" alt="Minas Gerais Flag">
+        <!--  height="350" width="500" -->
+      </div>
+      <div class="small-2 columns plus-icon">
+        <i class="fi-plus large"></i>
+      </div>
+      <div class="small-3 columns uploaded-picture">
+        <input type="file" name="upload" value="{{ uploadedFile }}">
+      </div>
+      <div class="small-4 columns end">
+        <button type="button" name="generate">Generate my picture</button>
+      </div>
+    </div>
+    <div class="row result">
+      <h3>Check your progress below before downloading</h3>
+      
+    </div>
+  </body>
+</html>
